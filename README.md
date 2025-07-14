@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Linktree Sederhana
 
-## Getting Started
+Sebuah halaman profil sederhana dan bersih untuk menampilkan semua link penting Anda di satu tempat. Dibuat menggunakan Next.js dan Tailwind CSS (via CDN) agar ringan, cepat, dan sangat mudah untuk disesuaikan.
 
-First, run the development server:
+![Screenshot Project](https://via.placeholder.com/800x450.png?text=Screenshot+Website+Anda)
+*(Ganti gambar di atas dengan screenshot website Anda jika sudah jadi)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Fitur Utama
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* **Super Cepat**: Dibuat sebagai halaman statis dengan Next.js.
+* **Mudah Diedit**: Cukup ubah satu file (`data.json`) untuk memperbarui semua konten. Tidak perlu menyentuh kode!
+* **Setup Simpel**: Menggunakan Tailwind CSS via CDN, tidak memerlukan proses build atau instalasi yang rumit.
+* **Desain Minimalis**: Tampilan bersih dan modern dengan mode gelap permanen.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Dibangun Dengan
 
-To learn more about Next.js, take a look at the following resources:
+* [Next.js](https://nextjs.org/) - Framework React untuk produksi.
+* [React](https://react.dev/) - Library JavaScript untuk membangun antarmuka pengguna.
+* [Tailwind CSS](https://tailwindcss.com/) - Framework CSS yang di-load melalui CDN.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Cara Menjalankan Secara Lokal
 
-## Deploy on Vercel
+Untuk menjalankan project ini di komputer Anda, ikuti langkah-langkah berikut.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prasyarat
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pastikan Anda sudah menginstal Node.js di sistem Anda.
+* [Node.js](https://nodejs.org/) (versi 18.x atau lebih baru direkomendasikan)
+
+### Instalasi
+
+1.  **Clone repositori ini (jika sudah diunggah ke GitHub)**
+    ```sh
+    git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
+    ```
+    Atau cukup unduh file projectnya.
+
+2.  **Masuk ke direktori project**
+    ```sh
+    cd nama-repo
+    ```
+
+3.  **Install dependensi Next.js** (hanya untuk Next.js, bukan untuk Tailwind)
+    ```sh
+    npm install
+    ```
+
+4.  **Jalankan server development**
+    ```sh
+    npm run dev
+    ```
+    Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+
+---
+
+## 🎨 Kustomisasi
+
+Bagian terbaik dari project ini adalah kemudahan kustomisasinya. Semua data profil dan link Anda tersimpan di satu tempat.
+
+**Cukup buka dan edit file `public/data.json`:**
+
+```json
+{
+  "name": "Ubah Nama Anda di Sini",
+  "avatar": "Ganti dengan link foto profil Anda",
+  "bio": "Ganti dengan deskripsi singkat Anda.",
+  "links": [
+    {
+      "title": "Judul Link 1",
+      "url": "[https://link-tujuan-1.com](https://link-tujuan-1.com)",
+      "icon": "Ganti dengan link ke logo/ikon"
+    },
+    {
+      "title": "Judul Link 2",
+      "url": "[https://link-tujuan-2.com](https://link-tujuan-2.com)",
+      "icon": "Ganti dengan link ke logo/ikon"
+    }
+  ]
+}

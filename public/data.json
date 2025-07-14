@@ -1,0 +1,37 @@
+{
+  "name": "Your Name",
+  "avatar": "https://img.freepik.com/free-vector/skull-gangster-holding-gun-vector-illustration_43623-1278.jpg?semt=ais_hybrid&w=740",
+  "bio": "Selamat datang di halaman profil saya. Temukan semua link penting di bawah ini.",
+  "links": [
+    {
+      "title": "Portfolio Website",
+      "url": "#",
+      "icon": "https://png.pngtree.com/png-vector/20210224/ourmid/pngtree-network-icon-png-image_2924727.jpg"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "#",
+      "icon": "https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png"
+    },
+    {
+      "title": "GitHub",
+      "url": "#",
+      "icon": "https://pngimg.com/d/github_PNG40.png"
+    },
+    {
+      "title": "Instagram",
+      "url": "#",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+    },
+    {
+      "title": "Facebook",
+      "url": "#",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1280px-Facebook_f_logo_%282019%29.svg.png"
+    },
+    {
+      "title": "Youtube",
+      "url": "#",
+      "icon": "https://static.vecteezy.com/system/resources/thumbnails/018/930/575/small/youtube-logo-youtube-icon-transparent-free-png.png"
+    }
+  ]
+}
