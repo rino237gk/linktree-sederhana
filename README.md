@@ -35,13 +35,13 @@ Pastikan Anda sudah menginstal Node.js di sistem Anda.
 
 1.  **Clone repositori ini (jika sudah diunggah ke GitHub)**
     ```sh
-    git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
+    git clone https://github.com/rino237gk/linktree-sederhana
     ```
     Atau cukup unduh file projectnya.
 
 2.  **Masuk ke direktori project**
     ```sh
-    cd nama-repo
+    cd linktree-sederhana
     ```
 
 3.  **Install dependensi Next.js** (hanya untuk Next.js, bukan untuk Tailwind)
