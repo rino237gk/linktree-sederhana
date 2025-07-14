@@ -2,9 +2,7 @@
 
 Sebuah halaman profil sederhana dan bersih untuk menampilkan semua link penting Anda di satu tempat. Dibuat menggunakan Next.js dan Tailwind CSS (via CDN) agar ringan, cepat, dan sangat mudah untuk disesuaikan.
 
-![Screenshot Project](https://via.placeholder.com/800x450.png?text=Screenshot+Website+Anda)
-*(Ganti gambar di atas dengan screenshot website Anda jika sudah jadi)*
-
+![Screenshot Project](https://files.catbox.moe/or64ak.png)
 ---
 
 ## 🚀 Fitur Utama
